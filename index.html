@@ -9,3 +9,67 @@
     <p>This is my first website hosted with GitHub Pages.</p>
   </body>
 </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome to Samantha Bush</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background: #fafafa;
+        color: #222;
+      }
+      h1 {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 0.2em;
+      }
+      .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+        margin: 40px 0;
+      }
+      .image-gallery img {
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        transition: transform 0.2s;
+        background: #eee;
+      }
+      .image-gallery img:hover {
+        transform: scale(1.04);
+      }
+      .caption {
+        text-align: center;
+        font-size: 1.1em;
+        margin-top: 8px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Samantha Bush</h1>
+    <p style="text-align:center;">Welcome to my creative space!</p>
+    <div class="image-gallery">
+      <div>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Nature 1">
+        <div class="caption">Nature Walks</div>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Art Studio">
+        <div class="caption">Art Studio</div>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Travel Memories">
+        <div class="caption">Travel Memories</div>
+      </div>
+    </div>
+    <p style="text-align:center;">More coming soon!</p>
+  </body>
+</html>
